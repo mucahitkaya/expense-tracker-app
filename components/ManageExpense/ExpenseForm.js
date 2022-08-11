@@ -87,7 +87,6 @@ function ExpenseFrom({ submitButtonLabel, onCancel, onSubmit, defaultValues }) {
             placeholder: "YYYY-MM-DD",
             maxLength: 10,
             onChangeText: inputChangedHandler.bind(this, "date "),
-            value: inputs.date.value,
           }}
         >
           {" "}
