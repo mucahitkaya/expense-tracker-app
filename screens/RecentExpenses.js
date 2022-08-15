@@ -19,6 +19,7 @@ function RecentExpenses() {
         expensesCtx.setExpenses(expenses);
       } catch (error) {
         setError("data gelemedi yau");
+        //errorMessage
       }
       setIsFetching(false);
     }
